@@ -14,6 +14,9 @@ public class Test {
 		Person st = new Student("suman", "irving", "B.Ed", 2018, 1010.22);
 		System.out.println(st);
 		
+		st.setAddress("Colorado");
+		System.out.println("The address of studnet st is: "+st.getAdress());
+		
 
 	}
 
