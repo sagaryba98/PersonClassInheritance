@@ -5,6 +5,7 @@ public class Test {
 		Person p = new Person("Sagar", "Irving");
 		System.out.println(p);
 		
+		
 		Student s = new Student("Suman", "Garnd Parie", "Bachlor", 2020, 2020.20);
 		System.out.println(s);
 		
@@ -16,6 +17,7 @@ public class Test {
 		
 		st.setAddress("Colorado");
 		System.out.println("The address of studnet st is: "+st.getAdress());
+		System.out.println("The fee of studnet st is: "+s.getFee());
 		
 
 	}
